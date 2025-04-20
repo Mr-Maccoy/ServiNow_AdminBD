@@ -9,8 +9,15 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="../../../index.php">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/../index.php">Home <span class="sr-only">(current)</span></a>
           </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="Miscelaneas.php">Miscelaneas <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="clientes.php">Clientes <span class="sr-only">(current)</span></a>
+          </li>
+
 
 
           <li class="nav-item dropdown">
@@ -18,7 +25,11 @@
             Tablas
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="../transacciones.php">Transacciones</a>
+            <a class="dropdown-item" href="transacciones.php">Transacciones</a>
+            
+        </div>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="tablas/Miscelaneas.php">Miscelaneas</a>
             
         </div>
           </li>

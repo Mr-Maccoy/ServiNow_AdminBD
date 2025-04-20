@@ -10,6 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['TRANID'])) {
 
     if (oci_execute($stmt)) {
         echo "Transacción eliminada correctamente.";
+        header("Location: ../transacciones.php");
     } else {
         $e = oci_error($stmt);
         echo "Error al eliminar: " . $e['message'];
@@ -19,3 +20,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['TRANID'])) {
     oci_close($conn);
 }
 ?>
+

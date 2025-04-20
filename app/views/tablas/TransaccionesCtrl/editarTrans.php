@@ -45,7 +45,7 @@ $discounts = getOptions($conn, 'DISCOUNTS', 'DISCOUNT_ID', 'DISCOUNT_APPLIED', $
     <?php include("../head.php"); ?>
 <body>
 <header>
-    <?php include("../menu.php"); ?>
+    <?php include("menu.php"); ?>
 </header>
         
     

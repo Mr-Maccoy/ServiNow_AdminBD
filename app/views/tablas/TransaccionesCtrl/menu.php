@@ -12,10 +12,10 @@
             <a class="nav-link" href="/../index.php">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="tablas/Miscelaneas.php">Miscelaneas <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/../Miscelaneas.php">Miscelaneas <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="tablas/clientes.php">Clientes <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/../clientes.php">Clientes <span class="sr-only">(current)</span></a>
           </li>
 
 
@@ -25,7 +25,7 @@
             Tablas
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="tablas/transacciones.php">Transacciones</a>
+            <a class="dropdown-item" href="../transacciones.php">Transacciones</a>
             
         </div>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">

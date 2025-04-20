@@ -27,17 +27,15 @@ $discounts = getOptions($conn, 'DISCOUNTS', 'DISCOUNT_ID', 'DISCOUNT_APPLIED');
 <?php include("../head.php"); ?>
 <body>
 <header>
-    <?php include("../menu.php"); ?>
+    <?php include("menu.php"); ?>
 </header>
 <h1 class="mb-4">Agregar Transacción</h1>
 
 <form action="insert.php" method="post" class="container" style="max-width: 600px;">
-    <div class="mb-3">
-        <label for="customer_id" class="form-label">Cliente:</label>
-        <select id="customer_id" name="customer_id" class="form-select" required>
-            <?= $customers ?>
-        </select>
-    </div>
+<div class="mb-3">
+    <label for="customer_id" class="form-label">ID Cliente:</label>
+    <input type="number" id="customer_id" name="customer_id" class="form-control" required>
+</div>
 
     <div class="mb-3">
         <label for="product_id" class="form-label">Producto:</label>

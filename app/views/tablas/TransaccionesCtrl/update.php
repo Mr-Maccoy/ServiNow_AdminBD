@@ -34,6 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     echo "Transacción actualizada exitosamente.";
+    header("Location: ../transacciones.php?limite=10&customer_id=" . $customer_id);
 
     oci_free_statement($statement);
     oci_close($conn);
